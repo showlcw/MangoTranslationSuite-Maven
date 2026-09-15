@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mango.sdk",
+    "module": "translate-android",
+    "version": "0.2.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "translate-android-0.2.16.aar",
+          "url": "translate-android-0.2.16.aar",
+          "size": 1271605,
+          "sha512": "524674d65074d0617feedc033546b26a429f4ef06044b66c03c429626d8aae4ed2976e7c84555808067ecba556603a9ea3db85a282b2dbcc7154b2217158f706",
+          "sha256": "d1b50fb26fd1dae7e543ff354bbdc82ff9c308ed4125df61bb583e61b2e9195e",
+          "sha1": "202dd12cbc997590a54ae1d903c1e2915e33c7f6",
+          "md5": "55a953ec4936c23cbf569ef3f51facc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "translate-android-0.2.16.aar",
+          "url": "translate-android-0.2.16.aar",
+          "size": 1271605,
+          "sha512": "524674d65074d0617feedc033546b26a429f4ef06044b66c03c429626d8aae4ed2976e7c84555808067ecba556603a9ea3db85a282b2dbcc7154b2217158f706",
+          "sha256": "d1b50fb26fd1dae7e543ff354bbdc82ff9c308ed4125df61bb583e61b2e9195e",
+          "sha1": "202dd12cbc997590a54ae1d903c1e2915e33c7f6",
+          "md5": "55a953ec4936c23cbf569ef3f51facc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "translate-android-0.2.16-sources.jar",
+          "url": "translate-android-0.2.16-sources.jar",
+          "size": 271277,
+          "sha512": "446be35e2468da4b08e7f6e8fd01739d21edb6bae1d0540d5247dc08df0df2abb3f81cba5eea1f96d3837c2039bce8d3ea33ac26e8b6c534628cb187ec5fc8ba",
+          "sha256": "1e791f1ded3670c20736352968590dbbb2b0c1d3a272ca758cccc5777b61cda2",
+          "sha1": "2bec70cbfa0f347685f19c4980b588368f05aede",
+          "md5": "8d6755af1c8e32329c5715a049c62535"
+        }
+      ]
+    }
+  ]
+}
