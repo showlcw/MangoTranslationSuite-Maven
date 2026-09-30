@@ -3,8 +3,8 @@
   <groupId>com.mango.sdk</groupId>
   <artifactId>translate-android</artifactId>
   <versioning>
-    <latest>0.2.23</latest>
-    <release>0.2.23</release>
+    <latest>0.2.24</latest>
+    <release>0.2.24</release>
     <versions>
       <version>0.1.2</version>
       <version>0.1.3</version>
@@ -32,7 +32,8 @@
       <version>0.2.21</version>
       <version>0.2.22</version>
       <version>0.2.23</version>
+      <version>0.2.24</version>
     </versions>
-    <lastUpdated>20260929164255</lastUpdated>
+    <lastUpdated>20260930012958</lastUpdated>
   </versioning>
 </metadata>
