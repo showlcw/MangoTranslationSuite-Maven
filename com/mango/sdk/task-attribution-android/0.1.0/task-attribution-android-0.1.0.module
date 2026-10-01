@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mango.sdk",
+    "module": "task-attribution-android",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "task-attribution-android-0.1.0.aar",
+          "url": "task-attribution-android-0.1.0.aar",
+          "size": 16535,
+          "sha512": "2b46eabc02c38a1d78c0bad0d7eb1256d89df31d8a5628c84a6ba9d537769b4d7201ccd554b4babe8581781fef3984e2aec3745aff249a828d2a0c925a2b08df",
+          "sha256": "0bc58c271b16d664082437c6452aba50e4ea866685dbd19da249ed21e1ff2014",
+          "sha1": "686716ae40af51f7a9175cca2916bdf5b5e0867d",
+          "md5": "71af5b6b8f595ca60c73af5201417aca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.google.android.play",
+          "module": "integrity",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "task-attribution-android-0.1.0.aar",
+          "url": "task-attribution-android-0.1.0.aar",
+          "size": 16535,
+          "sha512": "2b46eabc02c38a1d78c0bad0d7eb1256d89df31d8a5628c84a6ba9d537769b4d7201ccd554b4babe8581781fef3984e2aec3745aff249a828d2a0c925a2b08df",
+          "sha256": "0bc58c271b16d664082437c6452aba50e4ea866685dbd19da249ed21e1ff2014",
+          "sha1": "686716ae40af51f7a9175cca2916bdf5b5e0867d",
+          "md5": "71af5b6b8f595ca60c73af5201417aca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "task-attribution-android-0.1.0-sources.jar",
+          "url": "task-attribution-android-0.1.0-sources.jar",
+          "size": 5982,
+          "sha512": "9294bc6114929434f926dcedfa8c9533f4b4e20b2bbb3378d630fbc8dd7f5d4d36459bf11d6434492c5f8944071baf078f54ba981a61d527935091ce66456bd3",
+          "sha256": "7c9c4147fcdd688e1ddef7589de9b5c7a0fc6d021e47be8adf2c399f65448b70",
+          "sha1": "be4a583aad122114de552a1bb65efd766fd5e570",
+          "md5": "601d01e93bbd160ea350347fdf30ef5a"
+        }
+      ]
+    }
+  ]
+}
