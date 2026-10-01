@@ -16,3 +16,6 @@ com/mango/sdk/translate-android/0.2.21/* -text
 com/mango/sdk/translate-android/0.2.22/* -text
 
 com/mango/sdk/translate-android/0.2.26/* -text
+
+com/mango/sdk/task-attribution-android/0.1.0/* -text
+com/mango/sdk/task-attribution-android/maven-metadata.xml* -text
